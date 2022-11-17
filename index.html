@@ -17,7 +17,8 @@
     <link href="css/index.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic'><link rel="stylesheet" href="./style.css">
-    
+    <link href="css/slideshow.scss" rel="stylesheet" type="text/scss"> 
+
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet" id="bootstrap-css">
 
@@ -46,13 +47,13 @@
         <a class="nav-link" href="chi-sono.html">Chi sono</a>
       </li>
       <li class="nav-item dropdown dmenu">
-      <a class="nav-link dropdown-toggle" href="Servizi offerti.html" id="navbardrop" data-toggle="dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
           Servizi offerti
       </a>
       <div class="dropdown-menu sm-menu">
-        <a class="dropdown-item" href="#">Matrimoni</a>
-        <a class="dropdown-item" href="#">Compleanni</a>
-        <a class="dropdown-item" href="#">Eventi</a>
+        <a class="dropdown-item" href="matrimoni.html">Matrimoni</a>
+        <a class="dropdown-item" href="compleanni.html">Compleanni</a>
+        <a class="dropdown-item" href="Eventi.html">Eventi</a>
       </div>
     </li>
     <li class="nav-item">
@@ -75,7 +76,7 @@
     </ul>
     <div class="social-part">
       <a href="https://it-it.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-      <i class="fa fa-twitter" aria-hidden="true"></i>
+      <!--<i class="fa fa-twitter" aria-hidden="true"></i>-->
       <i class="fa fa-instagram" aria-hidden="true"></i>
     </div>
   </div>
@@ -106,12 +107,12 @@
               <div class="slide">
                 <div class="slide-content">
                   <div class="caption">
-                    <div class="title">Slide title 2</div>
+                    <div class="title">La mia storia</div>
                     <div class="text">
-                      <p>Slide description 2</p>
+                      <p></p>
                     </div> 
                     <a href="#" class="btn">
-                      <span class="btn-inner">Learn More</span>
+                      <span class="btn-inner">Vai alla pagina</span>
                     </a>
                   </div>
                 </div>
@@ -122,12 +123,12 @@
               <div class="slide">
                 <div class="slide-content">
                   <div class="caption">
-                    <div class="title">Slide title 3</div>
+                    <div class="title">Contattami</div>
                     <div class="text">
-                      <p>Slide description 3</p>
+                      <p></p>
                     </div> 
                     <a href="#" class="btn">
-                      <span class="btn-inner">Learn More</span>
+                      <span class="btn-inner">Vai alla pagina</span>
                     </a>
                   </div>
                 </div>
@@ -135,7 +136,7 @@
                   <img src="https://www.alixbdanthenay.fr/wp-content/uploads/2016/11/11.jpg" alt="" class="image" />
                 </div>
               </div>
-              <div class="slide">
+              <!--<div class="slide">
                 <div class="slide-content">
                   <div class="caption">
                     <div class="title">Slide title 4</div>
@@ -150,7 +151,7 @@
                 <div class="image-container"> 
                   <img src="https://www.alixbdanthenay.fr/wp-content/uploads/2016/11/20mars17-sans-typo.jpg" alt="" class="image" />
                 </div>
-              </div>
+              </div>-->
             </div>
             <div class="pagination">
               <div class="item is-active"> 
@@ -162,9 +163,9 @@
               <div class="item">
                 <span class="icon">3</span>
               </div>
-              <div class="item">
+              <!--<div class="item">
                 <span class="icon">4</span>
-              </div>
+              </div>-->
             </div>
             <div class="arrows">
               <div class="arrow prev">
@@ -183,21 +184,63 @@
           </div> 
         </section>
       </main>
-      <!-- partial -->
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
-      <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script><script  src="./script.js"></script>
-      <script src="js/slideshow.js"></script>
-      <link href="css/slideshow.scss" rel="stylesheet" type="text/scss"> 
-    
-      <!-- Start slideshow-->
+      <!-- fine slideshow-->
 
+      <div class="container1">
+        <H1> Servizi offerti</H1>
+        
+        <div class="img-logo">
+            <img src="img/Matrimoni.jpeg" alt="matrimoni">
+        </div>
 
+        <div class="img-logo">
+            <img src="img/Compleanni.jpeg" alt="compleanni">
+        </div>
 
-<!-- Remove the container if you want to extend the Footer to full width. -->
+        <div class="img-logo">
+            <img src="img/Eventi.jpeg" alt="eventi">
+        </div>
 
+        <!--<div class="img-logo">
+            <img src="https://images.unsplash.com/photo-1580732055671-e64dde2eb75b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="road">
+        </div>
+
+        <div>
+            <img src="https://images.unsplash.com/photo-1580785422463-c88da52a2922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="night-1927265_960_720">
+        </div>
+
+        <div>
+            <img src="https://images.unsplash.com/photo-1558666831-d43129d768b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="sunset">
+        </div>
+
+        <div>
+            <img src="https://images.unsplash.com/photo-1580793660347-5cc5e9d2c6dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="model">
+        </div>
+
+        <div>
+            <img src="https://images.unsplash.com/photo-1580761072152-9d6b9c77cf4f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="bird">
+        </div>
+
+        <div>
+            <img src="https://images.unsplash.com/photo-1580794592903-65ebe8345cd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="car">
+        </div>
+
+        <div>
+            <img src="https://images.unsplash.com/photo-1580793660347-5cc5e9d2c6dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="portrait-3013924_960_720">
+        </div>
+
+        <div>
+            <img src="https://images.unsplash.com/photo-1580802173430-cc68226a0875?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="portrait-3013924_960_720">
+        </div>
+
+        <div>
+                        <img src="https://images.unsplash.com/photo-1580820726687-30e7ba70d976?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="rose">
+        </div>-->
+
+    </div>
 
     <footer class="text-center text-lg-start border border-white mt-xl-5 pt-4">
-    <!-- Grid container -->
+    <!-- Griglia Container -->
     <style>
       
         body  footer{
@@ -215,9 +258,9 @@ footer{
 
     </style>
     <div class="container p-4">
-      <!--Grid row-->
+      <!--Griglia row-->
       <div class="row">
-        <!--Grid column-->
+        <!--Griglia column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
           <h5 class="text-uppercase mb-4">OUR WORLD</h5>
 
@@ -277,14 +320,14 @@ footer{
 
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-          <h5 class="text-uppercase mb-4">Sign up to our newsletter</h5>
+          <h5 class="text-uppercase mb-4">Manda un e-mail</h5>
 
           <div class="form-outline form-white mb-4">
             <input type="email" id="form5Example2" class="form-control" />
             <label class="form-label" for="form5Example2">Email address</label>
           </div>
 
-          <button type="submit" class="btn btn-outline-white btn-block">Subscribe</button>
+          <button type="submit" class="btn btn-outline-white btn-block">Invia</button>
         </div>
         <!--Grid column-->
       </div>
@@ -301,6 +344,9 @@ footer{
 <!-- End of .container -->
 
 <!-- JavaScript -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script><script  src="./script.js"></script>
+      <script src="js/slideshow.js"></script>
 <script src="js/index.js"></script>
     <script src="js/dropdown.js"></script>
     <script src="js/dropdown_2.js"></script>
