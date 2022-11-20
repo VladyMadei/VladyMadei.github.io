@@ -53,4 +53,33 @@
 
 .breadcrumb ul .breadcrumb-item a, .breadcrumb ul li a, .breadcrumb ol .breadcrumb-item a, .breadcrumb ol li a { color: #3c4043; }
 
-.breadcrumb ul .breadcrumb-item:hover, .breadcrumb ul .breadcrumb-item.active, .breadcrumb ul .breadcrumb-item:last-child, .breadcrumb ul li:hover, .breadcrumb ul li.active, .breadcrumb
+.breadcrumb ul .breadcrumb-item:hover, .breadcrumb ul .breadcrumb-item.active, .breadcrumb ul .breadcrumb-item:last-child, .breadcrumb ul li:hover, .breadcrumb ul li.active, .breadcrumb{}
+
+.bottone1{
+  width: 100%;
+  font-weight: 400;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+border: 1px solid #ffffff2e;
+padding: .375rem .75rem;
+font-size: 1rem;
+line-height: 1.5;
+border-radius: .25rem;
+transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+@media screen and (prefers-reduced-motion: reduce)
+.bottone1{
+  transition: none;
+}
+.bottone1-block {
+  display: block;
+  width: 100%;
+}
+.bottone1:not(:disabled):not(.disabled){
+  cursor:pointer;
+}
