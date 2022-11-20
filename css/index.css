@@ -20,8 +20,8 @@ ul li a{
   .container1 {
 
     display: inline;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 290px));
     grid-gap: 1rem;
@@ -31,7 +31,7 @@ ul li a{
   }
   .container1 H1{
     display:inline;
-    color: 
+    font: 50px/1.2 "Oswald", sans-serif;
   }
   .container1 ul li{
     display:inline-block;
