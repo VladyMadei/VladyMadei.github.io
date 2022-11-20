@@ -1,12 +1,11 @@
-
 .btn {
   display: inline-block;
   padding: 13px 20px;
   color: #fff;
   text-decoration: none;
   position: relative;
-  background: transparent;
-  border: 1px solid #e1e1e1;
+  background: #ffffff3d;
+  border: 1px solid #ffffff3d;
   font: 12px/1.2 "Oswald", sans-serif;
   letter-spacing: 0.4em;
   text-align: center;
@@ -139,6 +138,7 @@
   letter-spacing: 0.35em;
   text-transform: uppercase;
 }
+
 .slideshow .slide .text {
   margin: 0 auto;
   max-width: 1000px;
