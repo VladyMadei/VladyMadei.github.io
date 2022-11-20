@@ -37,6 +37,10 @@ ul li a{
     display:inline-block;
     
   }
+  .container1 p{
+    word-wrap:break-word;
+    font: 25px/1.2 "Oswald", sans-serif;
+  }
   .img-logo img {
     background-position: top;
     background-size: cover;
