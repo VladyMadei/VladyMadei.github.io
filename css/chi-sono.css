@@ -1,4 +1,4 @@
-#page-title { clear: both; padding: 80px 0; background-color: #fbfbfb; position: relative; /* page header left*/ /* page header right*/ }
+#page-title { margin-top:13vh; both; padding: 80px 0; background-color: #fbfbfb; position: relative; /* page header left*/ /* page header right*/ }
 
 #page-title .page-title { text-align: center; padding: 0; }
 
