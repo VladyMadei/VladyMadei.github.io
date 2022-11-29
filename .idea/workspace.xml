@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="679139ce-2be2-4198-ae34-964a9ab02e93" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_11_22,_22_26_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_11_22__22_26__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/53-537197_computer-desk-background.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Contatti.html" beforeDir="false" afterPath="$PROJECT_DIR$/Contatti.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eventi.html" beforeDir="false" afterPath="$PROJECT_DIR$/Eventi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compleanni.html" beforeDir="false" afterPath="$PROJECT_DIR$/compleanni.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
