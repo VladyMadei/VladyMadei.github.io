@@ -1,4 +1,4 @@
-#page-title { margin-top:7vh; both; padding: 80px 0; background-color: #fbfbfb; position: relative; /* page header left*/ /* page header right*/ }
+#page-title { margin-top:7vh; padding: 80px 0; background-color: #fbfbfb; position: relative; /* page header left*/ /* page header right*/ }
 
 #page-title .page-title { text-align: center; padding: 0; }
 
@@ -72,10 +72,16 @@ line-height: 1.5;
 border-radius: .25rem;
 transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+
 @media screen and (prefers-reduced-motion: reduce)
-.bottone1{
+{
+
+.bottone1{ 
   transition: none;
+  cursor: pointer;
 }
+}
+
 .bottone1-block {
   display: block;
   width: 100%;
